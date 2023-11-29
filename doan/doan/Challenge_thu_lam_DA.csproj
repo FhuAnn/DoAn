@@ -241,37 +241,13 @@
     </Compile>
     <Compile Include="Model\User.cs" />
     <Compile Include="Modify\Modify.cs" />
-    <Compile Include="product.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="product.Designer.cs">
-      <DependentUpon>product.cs</DependentUpon>
-    </Compile>
-    <Compile Include="product_item.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="product_item.Designer.cs">
-      <DependentUpon>product_item.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserControl1.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl1.Designer.cs">
-      <DependentUpon>UserControl1.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="product.resx">
-      <DependentUpon>product.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="product_item.resx">
-      <DependentUpon>product_item.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -283,9 +259,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UserControl1.resx">
-      <DependentUpon>UserControl1.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
